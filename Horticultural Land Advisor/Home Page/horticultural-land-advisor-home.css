@@ -1,0 +1,121 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: raleway;
+}
+
+.heading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vh;
+    height: 20vh;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 25px;
+    text-align: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.profile-picture {
+    margin-right: 25vh;
+    margin-left: 15vh;
+    border-radius: 90%;
+    height: 375px;
+    width: 350px;
+    border: 2px solid white;
+    box-shadow: 0 0 50px 5px white;
+}
+
+.statement {
+    margin-top: 75px;
+    font-size: 30px;
+    width: 700px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.jumbotron {
+    color: white;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Media/Cover-Photo-Home.png");
+}
+
+.learnmore {
+    text-align: center;
+    display: flex;
+    margin-left: 90vh;
+}
+
+.learnmore .col {
+    width: auto;
+    position: relative;
+    bottom: 50px;
+}
+
+.col_two {
+    margin-left: 80px;
+}
+
+.col h2 {
+    margin-bottom: 25px;
+}
+
+.col a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 3px white solid;
+}
+
+.foot_container {
+    display: flex;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: 25px;
+    width: 500px;
+    display: inline-block;
+}
+
+.footer_two {
+    color: white;
+    width: 250px;
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    bottom: 225px;
+    font-weight: bold;
+    height: 100px;
+    
+} 
+
+.two_begin {
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
